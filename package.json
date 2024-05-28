@@ -1,0 +1,17 @@
+{
+  "name": "controlsystemarf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0",
+    "nodemon": "^3.1.1",
+    "pm2": "^5.4.0"
+  }
+}
