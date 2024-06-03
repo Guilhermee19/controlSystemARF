@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 // Carregar variáveis de ambiente do arquivo .env
 dotenv.config();
 
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 server.use(middlewares);
 server.use(router);
