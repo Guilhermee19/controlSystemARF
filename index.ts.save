@@ -2,12 +2,8 @@ const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
-
-import dotenv from 'dotenv';
-// Carregar variáveis de ambiente do arquivo .env
-dotenv.config();
-
-const port = process.env.PORT || 3000;
+const port = 31
+00;
 
 server.use(middlewares);
 server.use(router);
