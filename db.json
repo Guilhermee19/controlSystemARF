@@ -1,5 +1,72 @@
 {
-  "constructions": [],
-  "users": [],
-  "reports": []
+  "finances": [
+    {
+      "id": 1,
+      "tag": "G",
+      "date": "2024-05-05",
+      "description": "Plastation 5",
+      "value": 3960,
+      "Installments": 10,
+      "status": "LATE",
+      "card": {
+        "name": "Nubank",
+        "due_date": "2031-09-05",
+        "payday": "2031-09-05",
+        "flag": "MasterCard",
+        "limit": 2000
+      },
+      "payment_voucher": ""
+    },
+    {
+      "id": 2,
+      "tag": "C",
+      "date": "2024-05-07",
+      "description": "Cartão Inter",
+      "value": 1230,
+      "Installments": 1,
+      "status": "WAITING",
+      "card": {
+        "name": "Inter",
+        "due_date": "2031-09-07",
+        "payday": "2031-09-07",
+        "flag": "MasterCard",
+        "limit": 2000
+      },
+      "payment_voucher": ""
+    },
+    {
+      "tag": "CF",
+      "date": "2024-05-06",
+      "description": "Manutenção do Carro",
+      "value": 150,
+      "Installments": 1,
+      "status": "WAITING",
+      "card": null,
+      "payment_voucher": "",
+      "id": 3
+    },
+    {
+      "tag": "CF",
+      "date": "2024-05-06",
+      "description": "Estacionamento",
+      "value": 280,
+      "Installments": 1,
+      "status": "PAID_OUT",
+      "card": null,
+      "payment_voucher": "",
+      "id": 4
+    },
+    {
+      "tag": "I",
+      "date": "2024-05-06",
+      "description": "FGTS",
+      "value": 160,
+      "Installments": 1,
+      "status": "LATE",
+      "card": null,
+      "payment_voucher": "",
+      "id": 5
+    }
+  ],
+  "cards": []
 }
